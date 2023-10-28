@@ -21,50 +21,44 @@ for (let i = 0; i < 1000; i++) {
         let idade = Number(prompt("Digite sua idade: "))
         if (idade >= 0 && idade <= 150) {
             alert("Idade válida")
+            break
         } else {
             alert("Idade invalida")
-            break
+            
         }
     }
     
-    for (let i = 0; i < array.length; i++) {
-        let idade = Number(prompt("Digite sua idade: "))
-        if (idade >= 0 && idade <= 150) {
-            alert("Idade válida")
-        } else {
-            alert("Idade invalida")
-            break
-        }
-        
-    }
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < 1000; i++) {
         let salario = Number(prompt("Digite seu salário: "))
         if (salario > 0) {
             alert("Salário válido")
+            break
         } else {
             alert("Salário invalido")
-            break
+            
         }
     }
     
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < 1000; i++) {
         let sexo = prompt("Digite seu sexo: ")
-        if (sexo === "feminino" && sexo === "masculino") {
+        if (sexo === "f" && sexo === "m") {
             alert("Sexo válido")
+            break
         } else {
             alert("Sexo invalido")
-            break
+            
         }
     }
     
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < 1000; i++) {
         let estadoCivil = prompt("Qual seu estado civil? Escolha entre s = solteiro, c = casado, v = viúvo, d = divorciado")
         if(estadoCivil === "s" || estadoCivil === "c" || estadoCivil === "v" || estadoCivil === "d" ){
             alert("Estado Civil válido")
+            break
         } else {
             alert("Estado Civil invalido")
-            break
+            
         }
     }
 }
